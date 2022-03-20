@@ -13,11 +13,11 @@ $black: (
 );
 $dark: (
   "base": theme-color("dark"),
-  "gradient-bg": #640064
+  "gradient-bg":  #120f7f
 );
 $light: (
   "base": theme-color("light"),
-  "gradient-bg": #640064
+  "gradient-bg": #120f7f
 );
 $primary: (
   "gradient-light":
@@ -37,7 +37,7 @@ $primary: (
   "accent-2": #8afbff,
   "accent-3": #57faff,
   "accent-4": #3df9ff,
-  "gradient-bg": #640064
+  "gradient-bg": #120f7f
 );
 $secondary: (
   "gradient-light":
@@ -53,7 +53,7 @@ $secondary: (
   "darken-2": darken(theme-color("secondary"), 10%),
   "darken-3": darken(theme-color("secondary"), 15%),
   "darken-4": darken(theme-color("secondary"), 20%),
-  "gradient-bg": #640064
+  "gradient-bg": #120f7f
 );
 $success: (
   "gradient-light":
@@ -93,7 +93,7 @@ $info: (
   "accent-2": #cbf5ff,
   "accent-3": #98ecff,
   "accent-4": #7fe7ff,
-  "gradient-bg": #640064
+  "gradient-bg": #120f7f
 );
 $warning: (
   "gradient-light":
@@ -133,7 +133,7 @@ $danger: (
   "accent-2": #ffd6db,
   "accent-3": #ffecee,
   "accent-4": #ffd3d7,
-  "gradient-bg": #640064
+  "gradient-bg": #120f7f
 );
 
 $colors: (

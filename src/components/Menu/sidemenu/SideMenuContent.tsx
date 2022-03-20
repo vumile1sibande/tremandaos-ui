@@ -150,10 +150,7 @@ export default function SideMenuContent(props: any) {
             props.handleSidebarMouseEnter(item.id);
           }}
           key={item.id}
-          onClick={(e) => {
-            return item.type === 'collapse' ? e.preventDefault() : '';
-          }}
-          target={item.newTab ? '_blank' : undefined}
+          onClick={props.onClick}
         >
           <div className="menu-text">
             {item.icon}

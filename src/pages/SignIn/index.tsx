@@ -120,7 +120,7 @@ import { AddressZero } from '@ethersproject/constants';
 import { useContract } from '../../hooks';
 import addresses, { RINKEBY_ID } from '../../utility/addresses';
 import ParcelFactoryContract from '../../abis/ParcelFactory.json';
-import Logo from '../../assets/img/logo/logoPng.png';
+import Logo from '../../assets/img/logo/TLOGO.png';
 import { Link } from 'react-router-dom';
 
 const ParcelLogo = styled.img`
@@ -149,7 +149,7 @@ const Description = styled.h1`
 `;
 
 const ColoredSpan = styled.span`
-  color: #6f6be9;
+  color: #120f7f;
 `;
 
 const ButtonWrapper = styled.div`
@@ -174,7 +174,7 @@ const StyledButton = styled.button<{ disabled?: boolean }>`
   transition: all 0.3s ease 0s;
   cursor: ${({ disabled }) => (disabled ? 'default' : 'pointer')};
   &:hover {
-    border: ${({ disabled }) => !disabled && '1px solid #6f6be9'};
+    border: ${({ disabled }) => !disabled && '1px solid #120f7f'};
     box-shadow: ${({ disabled }) =>
       !disabled && '0px 15px 20px rgba(0, 0, 0, 0.3);'};
     transform: ${({ disabled }) => !disabled && 'translateY(-5px)'};
@@ -242,7 +242,7 @@ export default function Landing() {
         <ParcelLogo src={Logo} alt="Parcel Logo" />
 
         <Title>
-          Welcome to <ColoredSpan>Parcel</ColoredSpan>
+          Welcome to <ColoredSpan>Tremandaos</ColoredSpan>
         </Title>
         <Description>Manage Crypto Payroll Seamlessly</Description>
         <ButtonWrapper>

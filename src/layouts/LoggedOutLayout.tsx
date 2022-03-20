@@ -1,6 +1,6 @@
 import React from 'react';
 import classnames from 'classnames';
-import Logo from '../assets/img/logo/logoPng.png';
+import Logo from '../assets/img/logo/TLOGO.png';
 import styled from '@emotion/styled';
 import { useLocation } from 'react-router-dom';
 
@@ -20,10 +20,10 @@ export default function LoggedOutLayout({ children }: any) {
         <div className="content-wrapper">
           <div className="content-body">
             {location.pathname === '/create' && (
-              <StyledLogo src={Logo} alt="Parcel Logo" />
+              <StyledLogo src={Logo} alt="Tremandaos Logo" />
             )}
             {location.pathname === '/organizations' && (
-              <StyledLogo src={Logo} alt="Parcel Logo" />
+              <StyledLogo src={Logo} alt="Tremandaos Logo" />
             )}
 
             <div className="flexbox-container">

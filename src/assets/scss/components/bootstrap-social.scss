@@ -75,7 +75,7 @@ $bs-height-xs:   (floor($font-size-sm * 0.2) + $input-btn-padding-y-lg) !default
 .btn-twitter       { @include btn-social(#55acee, #fff); }
 .btn-vimeo         { @include btn-social(#1ab7ea); }
 .btn-vk            { @include btn-social(#587ea3); }
-.btn-yahoo         { @include btn-social(#720e9e); }
+.btn-yahoo         { @include btn-social(#120f7f); }
 
 // Social Outline button
 .btn-outline-adn           { @include btn-social-outline(#d87a68); }
@@ -98,7 +98,7 @@ $bs-height-xs:   (floor($font-size-sm * 0.2) + $input-btn-padding-y-lg) !default
 .btn-outline-twitter       { @include btn-social-outline(#55acee); }
 .btn-outline-vimeo         { @include btn-social-outline(#1ab7ea); }
 .btn-outline-vk            { @include btn-social-outline(#587ea3); }
-.btn-outline-yahoo         { @include btn-social-outline(#720e9e); }
+.btn-outline-yahoo         { @include btn-social-outline(#120f7f); }
 
 // Social Outline hover button
 .btn-outline-adn:hover           { @include btn-hover-outline(#d87a68); }
@@ -121,7 +121,7 @@ $bs-height-xs:   (floor($font-size-sm * 0.2) + $input-btn-padding-y-lg) !default
 .btn-outline-twitter:hover       { @include btn-hover-outline(#55acee); }
 .btn-outline-vimeo:hover         { @include btn-hover-outline(#1ab7ea); }
 .btn-outline-vk:hover            { @include btn-hover-outline(#587ea3); }
-.btn-outline-yahoo:hover         { @include btn-hover-outline(#720e9e); }
+.btn-outline-yahoo:hover         { @include btn-hover-outline(#120f7f); }
 
 // Social Background colors
 .bg-adn           { background-color: #d87a68; }
@@ -144,4 +144,4 @@ $bs-height-xs:   (floor($font-size-sm * 0.2) + $input-btn-padding-y-lg) !default
 .bg-twitter       { background-color: #55acee; }
 .bg-vimeo         { background-color: #1ab7ea; }
 .bg-vk            { background-color: #587ea3; }
-.bg-yahoo         { background-color: #720e9e; }
+.bg-yahoo         { background-color: #120f7f; }

@@ -140,7 +140,7 @@ export default function Create() {
       <Card className="auth-card bg-transparent shadow-none rounded-0 mb-0 w-100">
         <CardBody className="text-center">
           <Title>Register a Name</Title>
-          <Description>Create a Parcel ID</Description>
+          <Description>Create a Tremandaos ID</Description>
 
           {isSubmitting ? (
             <Spinner type="grow" color="primary" size="lg" />
@@ -160,7 +160,7 @@ export default function Create() {
                     required
                   />
                   <InputGroupAddon addonType="append">
-                    <InputGroupText>@parcelid.eth</InputGroupText>
+                    <InputGroupText>@tremandaosid.eth</InputGroupText>
                   </InputGroupAddon>
                   <FormFeedback
                     style={{ position: 'absolute', marginTop: '3rem' }}
@@ -204,7 +204,7 @@ export default function Create() {
         onConfirm={() => setAccountAlreadyRegistered(false)}
       >
         <p className="sweet-alert-text">
-          Account already has an associated Parcel ID
+          Account already has an associated Tremandaos ID
         </p>
       </SweetAlert>
 

@@ -103,7 +103,7 @@ export default function Employer(): JSX.Element {
         />
 
         <h1 className="font-large-3 my-1">
-          Welcome to <span style={{ color: '#6F6BE9' }}>Parcel</span>
+          Welcome to <span style={{ color: '#6F6BE9' }}>Tremandaos</span>
         </h1>
         <h1 className="font-large-1 my-1">Manage Crypto Payroll Seamlessly</h1>
         <ButtonWrapper>
@@ -124,7 +124,7 @@ export default function Employer(): JSX.Element {
           show={noAccountAlert}
           onConfirm={() => setNoAccountAlert(false)}
         >
-          <p className="sweet-alert-text">Have you registered a Parcel ID?</p>
+          <p className="sweet-alert-text">Have you registered a Tremandaos ID?</p>
         </SweetAlert>
       </CardBody>
     </Box>

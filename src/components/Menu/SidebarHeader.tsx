@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Disc, X, Circle } from 'react-feather';
 import classnames from 'classnames';
-import ParcelLogo from '../../assets/img/logo/logo.svg';
+import TremandaosLogo from '../../assets/img/logo/TLOGO.png';
 
 export default function SidebarHeader({
   collapsed,
@@ -14,8 +14,8 @@ export default function SidebarHeader({
       <ul className="nav navbar-nav flex-row">
         <li className="nav-item mr-auto">
           <NavLink to="/" className="navbar-brand">
-            <img src={ParcelLogo} alt="Parcel Logo" className="brand-logo" />
-            <h1 className="brand-text mb-0">Parcel</h1>
+            <img src={TremandaosLogo} alt="Tremandaos Logo" className="brand-logo" />
+            <h1 className="brand-text mb-0">Tremandaos</h1>
           </NavLink>
         </li>
         <li className="nav-item nav-toggle">
